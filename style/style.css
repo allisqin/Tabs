@@ -1,0 +1,23 @@
+ul {
+   list-style-type: none;
+   display: inline-flex;
+   justify-content: space-between;
+}
+
+li {
+   margin-right: 20px;
+}
+
+button {
+   cursor: pointer;
+   display: inline-block;
+}
+
+.two,
+.three {
+   display: none;
+}
+
+.tab__active {
+   border: 1px solid red;
+}
